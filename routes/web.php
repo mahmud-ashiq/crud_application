@@ -13,3 +13,6 @@ Route::get('/add', function () {
 Route::post('/create', [ProjectController::class, 'create'])->name('create');
 
 Route::get('/view/{id}', [ProjectController::class, 'viewProject'])->name('view');
+
+Route::get('/edit/{id}', [ProjectController::class, 'editProject'])->name('edit');
+Route::post('/update/{id}', [ProjectController::class, 'updateProject'])->name('update');
