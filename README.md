@@ -94,7 +94,7 @@ php artisan migrate
 php artisan serve
 ```
 
-9. Visit `http://localhost:8000` in your browser
+8. Visit `http://localhost:8000` in your browser
 
 ## Database Name
 
