@@ -58,6 +58,10 @@ composer install
 3. Create a copy of `.env` file
 
 ```bash
+copy .env.example .env
+```
+or
+```bash
 cp .env.example .env
 ```
 
@@ -75,7 +79,7 @@ DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=crud_app
 DB_USERNAME=root
-DB_PASSWORD=your_password
+DB_PASSWORD=your_password default is null
 ```
 
 6. Run migrations
