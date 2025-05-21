@@ -36,4 +36,10 @@ class ProjectController extends Controller
         $project->save();
         return redirect()->route('home')->with('success', 'Added');
     }
+
+    public function viewProject($id)
+    {
+        $project = Project::findOrFail($id);
+        return view('view', ['project' => $project]);
+    }
 }
