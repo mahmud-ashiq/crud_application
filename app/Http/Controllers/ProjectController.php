@@ -77,4 +77,12 @@ class ProjectController extends Controller
 
         return redirect()->route('home')->with('success', "Updated");
     }
+
+    public function deleteProject($id)
+    {
+        $project = Project::findOrFail($id);
+        $project->delete();
+        return redirect()->route('home')->with('success', "Deleted");
+    }
+
 }
