@@ -2,10 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProjectController;
+use App\Models\Project;
 
 //home
 Route::get('/', function () {
-    return view('home');
+    return view('home', ['projects' => Project::all()]);
 })->name('home');
 
  //add project

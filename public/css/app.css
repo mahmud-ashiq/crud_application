@@ -49,14 +49,6 @@ a.button:hover, button:hover {
 }
 
 /* Form Styles */
-form {
-    background-color: #fff;
-    padding: 25px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    max-width: 600px;
-}
-
 label {
     display: block;
     margin-top: 15px;
