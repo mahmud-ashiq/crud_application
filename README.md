@@ -2,6 +2,8 @@
 
 A simple Laravel CRUD application to manage portfolio projects.
 
+**Live Demo:** [View the live project here](https://crud-app.free.nf/)
+
 ## Features
 
 -   Add new projects
